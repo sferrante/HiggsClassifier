@@ -48,7 +48,7 @@ Compute proxy used here:
 
 ![Compute-optimal scaling](Plots/compute_optimal_scaling.png)
 
-Although the frontier isn’t perfectly smooth (likely due to finite sweeps, optimization noise, and proxy-compute mismatch), it shows a clear scaling trend over a broad range. In particular, the behavior from roughly **10^4 to 10^8** in compute looks close to a clean power-law improvement.
+Although the frontier isn’t perfectly smooth (likely due to finite sweeps, optimization noise, and proxy-compute mismatch), it shows a clear scaling trend over a broad range: from roughly **10^4 to 10^8** in compute, we see a clean power-law improvement.
 
 
 
