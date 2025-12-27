@@ -11,19 +11,19 @@ Small ML experiments on a **physics-motivated jet classification** task: a simul
 ## Contents
 
 - `HiggstrahlungClassifier_Supervised.ipynb`  
-  Trains a neural classifier for signal/background discrimination; explores scaling laws, and calculates the **compute-optimal** scaling law. 
+Trains a neural classifier for signal/background discrimination; explores scaling laws, and calculates the **compute-optimal** scaling law. 
 
 - `HiggstrahlungClassifier_Unsupervised.ipynb`  
-  An autoencoder-driven / unsupervised workflow for **CWoLa-style** separation without per-event labels.
+An autoencoder-driven / unsupervised workflow for **CWoLa-style** separation without per-event labels.
 
 - `HiggstrahlungClassifier.py`
- Defines the MLP and Autoencoder models, training procedures, plotting and more.
+Defines the MLP and Autoencoder models, training procedures, plotting and more.
 
 - `Datasets/ee_Zbb_noH.lhe`  
-  Background Dataset in LHE format.
+Background Dataset in LHE format.
   
 - `Datasets/ee_ZH_Zbb.lhe`  
-  Signal Dataset in LHE format.
+Signal Dataset in LHE format.
 
 
 ---
