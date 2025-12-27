@@ -34,8 +34,7 @@ In collider physics, many searches reduce to learning subtle differences between
 This repo uses a toy-but-realistic setup: simulated **Z → b b̄** events (plus background),
 converted into a fixed set of kinematic features and used for classification.
 
-The goal is to understand some modern ML behavior (generalization curves,
-double descent, scaling trends) in a concrete scientific dataset.
+The goal is to understand some modern ML behavior (double descent, scaling trends) in a concrete scientific dataset.
 
 ---
 
