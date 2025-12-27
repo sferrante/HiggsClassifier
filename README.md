@@ -7,22 +7,6 @@ Small ML experiments on a **physics-motivated jet classification** task: a simul
   - **Neural scaling laws** + **compute-optimal** behavior
   - **Double descent**
 
----
-
-## Table of Contents
-- [Contents](#contents)
-- [Background](#background)
-- [Setup](#setup)
-- [Experiments](#experiments)
-  - [Supervised classifier](#supervised-classifier)
-  - [Double descent](#double-descent)
-  - [Scaling laws](#scaling-laws)
-  - [CWoLa-style unsupervised separation](#cwola-style-unsupervised-separation)
-- [Results](#results)
-- [Compute-optimal scaling plot](#compute-optimal-scaling-plot)
-- [Notes](#notes)
-
----
 
 ## Contents
 
