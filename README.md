@@ -46,11 +46,6 @@ This figure shows the **compute-optimal frontier** (best loss achieved at a give
 C \equiv N_{\text{params}} \times N_{\text{steps}}.
 \]
 
-> **Insert your figure here:** replace the filename below with your actual exported plot.
-
-**PNG version (recommended for GitHub README):**
 ![Compute-optimal scaling](assets/compute_optimal_scaling.png)
 
-**PDF version (GitHub will render it as a clickable link, not an inline image):**
-[Compute-optimal scaling (PDF)](assets/compute_optimal_scaling.pdf)
 
