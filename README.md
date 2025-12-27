@@ -46,6 +46,6 @@ This figure shows the **compute-optimal frontier** (best loss achieved at a give
 Compute proxy used here:
 `C = n_params × n_steps`
 
-![Compute-optimal scaling](plots/compute_optimal_scaling.png)
+![Compute-optimal scaling](Plots/compute_optimal_scaling.png)
 
 
