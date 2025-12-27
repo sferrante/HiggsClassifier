@@ -41,11 +41,11 @@ The goal is to understand some modern ML behavior (double descent, scaling trend
 ## Results
 
 ### Compute-optimal scaling
-This figure shows the **compute-optimal frontier** (best loss achieved at a given compute budget), using the proxy
-\[
-C \equiv N_{\text{params}} \times N_{\text{steps}}.
-\]
+This figure shows the **compute-optimal frontier** (best loss achieved at a given compute budget). 
 
-![Compute-optimal scaling](assets/compute_optimal_scaling.png)
+Compute proxy used here:
+`C = n_params × n_steps`
+
+![Compute-optimal scaling](plots/compute_optimal_scaling.png)
 
 
