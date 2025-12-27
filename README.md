@@ -26,28 +26,21 @@ Small ML experiments on a **physics-motivated jet classification** task: a simul
 
 ## Contents
 
-> **Note:** rename these bullets to match your actual filenames (I’m using clean, descriptive defaults).
+- `HiggstrahlungClassifier_Supervised.ipynb`  
+  Trains a neural classifier for signal/background discrimination; explores scaling laws, and calculates the **compute-optimal** scaling law. 
 
-- `notebooks/01_supervised_classifier.ipynb`  
-  Train a neural classifier for signal/background discrimination; includes basic metrics and sanity checks.
+- `HiggstrahlungClassifier_Unsupervised.ipynb`  
+  An autoencoder-driven / unsupervised workflow for **CWoLa-style** separation without per-event labels.
 
-- `notebooks/02_double_descent.ipynb`  
-  Explore **double descent** by varying training duration / effective fitting regime and tracking test error.
+- `HiggstrahlungClassifier.py`
+ Defines the MLP and Autoencoder models, training procedures, plotting and more.
 
-- `notebooks/03_scaling_laws.ipynb`  
-  Sweep model size (parameter count) and observe approximate **power-law** behavior of loss vs scale.
+- `Datasets/ee_Zbb_noH.lhe`  
+  Background Dataset in LHE format.
+  
+- `Datasets/ee_ZH_Zbb.lhe`  
+  Signal Dataset in LHE format.
 
-- `notebooks/04_cwola_autoencoder.ipynb`  
-  An autoencoder-driven / weakly-supervised workflow for **CWoLa-style** separation without per-event labels.
-
-- `scripts/plot_compute_optimal.py`  
-  Utility script to generate the compute-optimal scaling plot shown at the end of this README.
-
-- `results/`  
-  Saved sweep outputs (CSV/JSON) used to reproduce plots without rerunning training.
-
-- `assets/`  
-  Figures displayed in the README.
 
 ---
 
