@@ -1,11 +1,11 @@
 # HiggsClassifier
 
-Small ML experiments on a **physics-motivated jet classification** task: a simulated **Z → b b̄** final state generated with **MadGraph**. This repo is mainly a playground for:
+Small ML experiments on a **physics-motivated jet classification** task: a simulated **Z → b b̄** final state generated with **MadGraph**. Contains:
 - **Supervised classification** (signal vs background)
 - **Unsupervised / weakly-supervised ideas** (CWoLa-style separation)
 - Two broader ML phenomena:
-  - **Double descent**
   - **Neural scaling laws** + **compute-optimal** behavior
+  - **Double descent**
 
 ---
 
